@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\a18e2a8fda666b779ba9fa5be2d5ded2939aedfd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c39a4b431976abc46d3cf6344c75d06c769cd35">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e51227b23ad2e37ad17065abc4c3761d59975bf7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\180fa7e7251f67e355ebc04bf2d0b8d03c429065\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44120508d7240c3e34a05957981a5c3c9b9f61aa">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_009a05eb86a40dc2a439669324bc7f05828a7a46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.0.0_7d1bc30c5b0b1e5305dde3bd34a44280671fc2d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\c3779c86e844f3e7554aea38bf7f85fee6efd0cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd7b4a8e01cafa79a0b228b2ee5bd57ae5577444">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d21773a9476e2747348d975fb78c063a404fb9ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\b5fe4d5db360f14297cd9fe0145ec5afe80bf859\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="535d4497b5fa5d451e07a043e9e220d5c25ab7c7">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0bdf12ae97f2be6c8f668341aeaaf0473548c3d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\30c85da072ea47d30f4dd1e8eba09e096deb9159\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="be009dbe07b3a252c8cda07fc948ac713d2f5171">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_954c8f7e3c66a55500ec39734dc2ff272cfb66fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\dca7e6d87232b9379d0b1e379c01239ba7426122\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fb15fd9774b5c51dcb39d8e6fa1b6f06bcd1cd34">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ed2228bccc22b224a07642e900707b46a25712fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\404a14a84c83996973bd3e0dce109f55ef68a674\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd7676ac12aa6653718b7ea33d93ce9d6915d526">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9e9bb42fdafed41fff74e64bf7516a49bec93321\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\80d9dfff3275b15449640ee0737aa6ff98432d71\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e791f7f2fbf9ca5b3b576916533f844dfb384024">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1e7e640d5b8eb1803df9c9b59690951b2b9f895f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\c80f25bed8410f6aef9f50aea43c80deda1ab2e9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f56a68df45e18ce77814db6553fdaa229308f49b">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc6458ef917f5636e0315bbba7434c09e0a56bf4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\e9030c3a717e629f9f58f5c09ccf86dac53f9a0e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="299e04800d1169b9f3dd04c376c7b266a3594cca">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ba6c078fc323343f62d3530921ec39be10d254a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\f208f569782b692ef9ed68baf14bbea20c6aedca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa6c324604383981fb74c4cb036d4171ed0a9a02">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4e2ec7a4131684beeefe0d4e18a4facecf2514df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\7b97d68d339875bdf7401cde05b70176fd20c7fc\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_050c8c5a3150c4e91fdbb3ff4d0a7c8af346ec91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\47eff712c7fafb7700651bcbb4a105e47d1ae4c7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="982031d2aa9652bc955d0b581ec70378c0adfc56">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f67b324c71ccb4c31634e5f162d9ee82a92ed9aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\0720a1ec294f330dd61276356e10a8d94062e09e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="33b5900f82d19fd3dacee518363b249ace77b8f5">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17cd67779e1e772fa3c1eb1ece5574add5ddaa24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\0598da65574a1d25651a28f1bf84a69b84b0ea21\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0712565a784bedd07ada2393c95e0b1e288840f">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3954f01499bffd4dc90b09b503d00cf4e998e26b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\bdadca66bee42cd13ba49734a17f0f404926a9c5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0595e77431edaba6793410f9bfa3603c063c58e7">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ea639436a1128f883e99b97f8fdf5400010a39f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\cf682dac540dd44a896cdb1409bd53eae64c9d3d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="33203b081101ca6242a4cd746aafe5fc2dd98a34">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2faff2a0ef79bfd7a3bd424bb252bfa7a3adbf9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\01b131a83e7e236e0711d15db5c5e312da3ff35b\output\jars\libs\rxandroid-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8c023dc6974699af1aca0e94e0e4f1403dc53849">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-1.1.0_034856ef9a8267373b9ef70c3f182b7403219f31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\230902daa988e6f628ee7838cd4287151863dc50\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18e52280643effbab30370b073e456d670a0db54">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7bbafd1b266087a352bf1dcbc351d724aed4b310\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\0b2766537de17403864aea3a38fbaa79133811c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_23b70ef20780fd904960c6ccbe48aaeccfa6c980\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\0f5f1b12e60171c526de079e759b7e2bce6934bf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e3177fae918dbe4e58eccf197cfb56bfaf59803">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_766501da6e2d5d44f9a1d039b86a66691c85b148\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\7b51f1d58c5cde1713b4db4a46e16760fee495c7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="89172db744f643c670ee7f9620b39ed460bc23fb">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1e2d77ab8dae321c164db1468bbfe166c9055f17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\32019b221ca62fa5987af7f917bbf794b1b6a315\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7572433ba21aa9e4624c819fa738b2748b82d05">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5321e46656ed91664c6cc59639d57d606f5bad82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\7058bc759dcdab908f875e1777ec729c0adff591\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a06eb7761fca120bbb46b34b930a3a3462ba9d7f">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56d14ed452b19a408fe870d8df2c070b159612ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\d3640faeab7db90fef7bedab9c809e3d3b813531\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="74694bf98bd1f856cf478bd0c516531801badced">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac2880407fc22c1920174026d9a742ee63f0ea73\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ce4893798d0942d23f7b31b40e2aea4fa72cdba5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\908f41b9af1feaca87f028d8afb447385a14a939\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c7c21cc7a45d5c2a57d77f4840d4d4ea3c7604f">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1ae7f76760c1e9747feeba610aa3783b7021bc8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\a8aa36831a3495996b1379fc55a08ccf4e536f80\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce9432b50a02be101bc491a1b38d3904200bd988">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_53361125492210786062b26a763ad239741ca0e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\21e5726a73591a9e247a0684bb46dae1678c6cae\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="48bb39a8c77b8918ea0518866c547f1345bdae2d">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5cecd635bd227bd4ca007e10a7510d81d4e7f9ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\a46f8f986106acd9134b42583223257bffeb89f5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="363f626ad5686283250cdb6073ae1bba5cb07a87">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c812a4c86c880740f16e80e5c8817338f8e6f6c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\cb35e6a2fccf4422d66554762cb3416725644b61\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cf7abe2a43ffb1d475e94d0877ef3abb95fff56e">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4298298b86ed20038553a51ce3e71b44b543db03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\b27c466b46b8b069bb3ea7188ee2ad8d08df4fe5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7428f0d1debdcf1b5792a26146e51a38d992d04d">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c9a8d063a2daf73313675f2d47daea8edb076a51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\f15e6fcd0a4f0b6baf92990e220b19f0d591a747\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e91e1f335dc418d0138991a1d5155f0490ab6082">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e3191aeaffd436678217933d0a74f85b6de13774\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\reactive-streams-1.0.0_bf5c7690e11fa04473fb0b06ad49e71324c272d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\01b131a83e7e236e0711d15db5c5e312da3ff35b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b47566deac05450bc5c1bec21a7840023efb0f6">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_469d347cf56b48de1154e07e59e5dc82301bd689\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.0.0_0dad76c8fd026106a6b686d747d0e2b4d0411da3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\7b97d68d339875bdf7401cde05b70176fd20c7fc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f55c9373fbadf9663aa51d5827dcb8b9a14cf344\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\01b131a83e7e236e0711d15db5c5e312da3ff35b\output\jars\libs\logging-interceptor-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09793ad9c2308635c4e8a862d18f8b32a05cbb9d">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.6.0_493c710bb517beb1885bf6bbb8c86b7ef51dad28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\2c6e09bc13aec752fa652475f5e4f386d1197d28\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e616b95568c5f38322799069485eb73f68ffec0a">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3453be957d491de22d1fcb513ca0c6e01e38057\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\d6cda1f0b30b978ffe4f7782396a7fc8619e615d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5acfd484717d9175c175569a114d46dbeec074ed">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6acda46d1e0fc2b401fbf557bee50ecbc5c9b174\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcpkix-jdk15on\1.57\5c96e34bc9bd4cd6870e6d193a99438f1e274ca7\bcpkix-jdk15on-1.57.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c96e34bc9bd4cd6870e6d193a99438f1e274ca7">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\bcpkix-jdk15on-1.57_d68dc64b968de135770fd6e0d4db30f0c60f09f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\0c4045637a6a4bfc5513e97fe83b9bc2aea236f0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="593fbaec1c3e100480a2bd72457b64b7dde6ac2d">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b7b28fa442722eca3e6766810b10c18d0528e397\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\9ba0e1de902ceb344fefe74b400d0b427acc2b3a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1dc44c4798cbd79e95e4838a3fdc734c0e3f895f">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3c0dc2e98378fd667ad52cb4853c1f481bf6432d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\8cb77022b6c7405ac522b45cbe510732ba954f3e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ab13035e00ca901ffa6e5959c75fe8f4aea0ef8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\20e717cb8e19ce45673f0e207c0bb2c0d958dd3d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b53d61bae49278c0fa202d9066d2e72fc151c1e8">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_389e628a10e277b38ae92ab38f92d53975b9fc72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\01b131a83e7e236e0711d15db5c5e312da3ff35b\output\jars\libs\rxjava-2.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="597e94dc6f967f58d2ab3b092224375ffcc49bc5">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-2.0.0_9963de62ea2097b4966312370a85a3de6e790802\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\424d24fe64a8c1cee9df5f669232db926a5f4838\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="20ca7888c59f63d439f218a8810c88039f8bc7db">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_93d78a2c1774314f1e35b7fdc7625b2a78f035dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\01b131a83e7e236e0711d15db5c5e312da3ff35b\output\jars\libs\adapter-rxjava2-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0672896d0ccddf52382fe5d4c188792c81f5a8f">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava2-2.2.0_7213ad96f0503a4d977808f1f84836c06bc7109c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcprov-jdk15on\1.57\f66a135611d42c992e5745788c3f94eb06464537\bcprov-jdk15on-1.57.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f66a135611d42c992e5745788c3f94eb06464537">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\bcprov-jdk15on-1.57_87ffa7cc4aad0fa8ae785aa1cab4bf6fc2bd47a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3bf5febff9220cd6f950fc583da9c9c826a5586c">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5d4de06379c85687a11091a553d1dba0bb31a9ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\ba269e421338145b0ce387f13f41550761d0550b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1cce3549dc83db6406c20b17e011ff7d2254b143\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\01b131a83e7e236e0711d15db5c5e312da3ff35b\output\jars\libs\converter-gson-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57e4a03424c16c96f6e15b554008df9bac396d1f">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.2.0_2b584bf16879ed6cb131e6d95dd5bad6cb1c627b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.2\3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf\gson-2.8.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.2_a985ffbc273c4b004d98d6a3783b70c562f3392c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\79b224656dfa194ff043ce54435d5cc8f4d01f77\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="404f4108b41050173f93836f5b35efdd9525a0ad">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_133909fb764d0893553710e7fd0e2aaf8ec97a4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\2e81b889c36786f532d4f25715647d516e79c67c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3114d35487c8d0c32caf71fc4e34494c90c58a6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\a31087ed246a4e45c6e976115ea1e9e0fd521e1e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="62e71cc187cfcb1ba382b05c5f39f5d903973656">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0c07d0d2d28d46578e29666ad5a437d7d6a1bcd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\521472676c8446e29b5e7dee8d63e9d9f8104d31\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbb50f7f89342c915898c9376a67229e2fcee286">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5016948ff44b2dedbffba99e6e590ea5eb55c4a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\com.squareup.wire\wire-runtime\2.2.0\edcc5f389a5ffc0aa6fdcd73480e563affdbd24c\wire-runtime-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="edcc5f389a5ffc0aa6fdcd73480e563affdbd24c">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\wire-runtime-2.2.0_556130cce1542938c2a8ae544f298532ac4d8f7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\f19ec006e3651052b99bb45db42a0a79eaad96b7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="39261f58509b1a379df041f03da394c29da05395">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3cd8d6aeb06af2bdbd596250a476ca04e9e71b10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\4c469018b38b98e66e18b61bd22cd529ec41dbb2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="21bb89120d84fa29afeb0f9c0ebf415bc3b45a7e">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f25fa2710a354c6f68c2d0ec5779066c1141cc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\01b131a83e7e236e0711d15db5c5e312da3ff35b\output\jars\libs\dji-rxjava-1.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c79b2547fa993825756d71430c9fe9cfba2c189">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\dji-rxjava-1.1.3_edd1797b64634d26e8826217a6044e1e8511f9c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\74021b645aca9028daf99e6c1fc32d4e0cf8e1c0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_03a33ee98ec2226aa9f6035005e6aa138e9111cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\91c0f8d6ff3542817c2b3b24b439ff3200a6945b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3f200938bb888d83c2da807cb6aee983baae254">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b632e0ca5b07666b7966b3070b9ac14583823e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.15.0\bc28b5a964c8f5721eb58ee3f3c47a9bcbf4f4d8\okio-1.15.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc28b5a964c8f5721eb58ee3f3c47a9bcbf4f4d8">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.15.0_1d69b618e319b2198803106622324bbeab6adf1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\728eeaafb7ae16cc09573e4d94121ef0b2b4e585\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e97fa8abc1a1a90087ce8b093d11f1a8e0f1214">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1750f276ff582715f9d0eb12b941770cce987c0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\ce70f24718b270283e4e6f13c5a632cf725ccc2f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="08cdd337d1d9247eb915f0ab365624dd7966e7fa">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e7978801c204bd2009fbbbf8685f63b07c35a022\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\4bcd9ffa221cfeaaab1c0e56e5244bb0196f31d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7103318ab8a16fe56a325b7554b088f4d49e4700">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7563fd06a32cabd7341d629533093d23e28f77a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\1cb2dd6700fdf31cc39ddcf9cbe32d450aedc147\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f315c6b5b99081f16a79c9aaa557328a4644fe63">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_05a755333362594e370161868b7c2aadabd32cfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\e2930563326397e993c3be950cec54985e28a2f5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c8fcebabb73df25937704f5566bf6c388ea941d">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c369d748dab7cff8e0d97d398ec44184cd6ec76e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\com.vividsolutions\jts\1.8\6ad868f7fe14ef6646d584072e33247eb95f9d13\jts-1.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ad868f7fe14ef6646d584072e33247eb95f9d13">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\jts-1.8_803956e358110566a99ca70de9f4d13b6da28856\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\01b131a83e7e236e0711d15db5c5e312da3ff35b\output\jars\libs\rxjava-computation-expressions-0.21.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fb55c48be64a50e492ed4d0ff8611cd7d89501ce">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-computation-expressions-0.21.1_790eeb74603e23d4f2a959975d8ab6eb046bf7fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\31597247821f0919e95a40e673c314276e7fb95a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dc4c18602ecffb3e69cda6cdc51ba4feac0f97d7">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_95e51237eedca741901aba9e859b69504d426042\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\2eeed5edf38bfb77b7525612ed6064ab9e07e836\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d35b57785e805406538454943d0ed0ba97f6e653">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_959a6211b835a45f150619a232117c8f4ee9d60d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\af932413fd09741495b434ae8f5a3dda28f3827a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad1b5663f367dac619256d75fb08a98c7baa4f4">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a51337a2491cc0b44c38bdee553ec025e883d193\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\d97d3a66328e26ba38e5bc0787e3ed464a6c6cd1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ec9ae00d45e758ac5b7a1c5dc0daa8a4b24280f">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b4e3cb4d31c091c0d6bd0a9471966d93228747ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\96b186f1eb9a668c8449ebeb47c38de23f811cc5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="811202a9098047576814fc2171b56b83b537a8b9">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cc18b586ff6759279578e4f79dcc57535ea8aa20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.0\a7782471b2a0de8fec071b8094a8aaf61c46ab70\support-annotations-27.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a7782471b2a0de8fec071b8094a8aaf61c46ab70">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-27.0.0_43fd796e1e60375f075ffa31c00c019b0bd509de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.2\bfc967828daffc35ba01c9ee204d98b664930a0f\constraint-layout-solver-1.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bfc967828daffc35ba01c9ee204d98b664930a0f">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.1.2_1f3ff55688d1548cf6a72b82b2681bd1d8e697fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\df982fdd1519c216b60102644ce1d9ff8e60bc9b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="30489a97b06cc3945bdbcc1770089af9e3b3b64d">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d64f04b3a9f599f01cb9b7b76e1c40cfa43498b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\6fba7978b93f244989cc573585ba2e1033aedc5c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4838df6db988160b107e954e02a745370df543b6">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5af74cc08494703fc7c32a5fd106c7653b879c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\cb9d3a420a6627bc10e4538573a3fc08e0d66dd7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="62c85d61c1ecd732dfe0c57e050d179ed85588bf">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1984f92b0e40ac534e2c3858eaa412083a8326f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\2bb25170b64bed8a1c175cf2d79ee7357ad86704\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a03f4d605b0f29222c2ddf8b7896258cb4b92def">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_86b35b741d415fa9319981ba09fa524f9f571732\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\a59defafdda04c3ee6439eab1c33ecac60a412fa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7378806b630886994099d03c369983f2848a609f">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d26e8ad6e16295e119fec728848d19515954624b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\3b68a5073b051e5e74986d297fb5dc496be3d865\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a378adc3106cb3560ab3dfed05f1fda26cff5b49">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7ed9b5c491a9b5a52213896b6402596d5d9aa4fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\d76fb6d546c2aa6f39528242576bf51f9fd7dc62\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="182370a4a0bba7903c6ff2cb7b6ac21ca4a4bf89">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef9dc956efc86f1689e2daa5299ba87d6ebfbe42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\a803c431db1a6b0b18c4ee614d14bc6cfa2cbd22\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b30678c0ce4f6b26a7d5fc3fb9f52e185ecb2fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\f9b9c5616538c5270194b8548438a40452e04648\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="163b095362fd14d682ac311bf672c2fb54de5078">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f3f3a278da0193401d545837361e24edaa394f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.android\build-cache\01b131a83e7e236e0711d15db5c5e312da3ff35b\output\jars\libs\retrofit-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b0d9c3a922a7794e960b65b0172606144b185811">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.2.0_a78229a23dc0b40fda050baa7b5f433728602f8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lefteris\.gradle\caches\modules-2\files-2.1\com.lmax\disruptor\3.3.9\7898f8e8dc2d908d4ae5240fbb17eb1a9c213b9b\disruptor-3.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7898f8e8dc2d908d4ae5240fbb17eb1a9c213b9b">
+        <dex dex="C:\Users\Lefteris\Documents\Android-GSDemo-GoogleMap-master\GSDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\disruptor-3.3.9_21845bf597980feb71adb2109aac9a8278ecead7\classes.dex" />
+    </item>
+
+</items>

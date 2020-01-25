@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dji:dji-sdk:4.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/01b131a83e7e236e0711d15db5c5e312da3ff35b/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/01b131a83e7e236e0711d15db5c5e312da3ff35b/output/jars/libs/rxjava-2.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/01b131a83e7e236e0711d15db5c5e312da3ff35b/output/jars/libs/dji-rxjava-1.1.3.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/01b131a83e7e236e0711d15db5c5e312da3ff35b/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/01b131a83e7e236e0711d15db5c5e312da3ff35b/output/jars/libs/adapter-rxjava2-2.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/01b131a83e7e236e0711d15db5c5e312da3ff35b/output/jars/libs/converter-gson-2.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/01b131a83e7e236e0711d15db5c5e312da3ff35b/output/jars/libs/retrofit-2.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/01b131a83e7e236e0711d15db5c5e312da3ff35b/output/jars/libs/rxandroid-1.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/01b131a83e7e236e0711d15db5c5e312da3ff35b/output/jars/libs/logging-interceptor-3.6.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/01b131a83e7e236e0711d15db5c5e312da3ff35b/output/jars/libs/rxjava-computation-expressions-0.21.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
