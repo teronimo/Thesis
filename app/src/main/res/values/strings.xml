@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GSDemo</string>
+    <string name="app_name">Drone Guard</string>
     <string name="title_activity_demo">GSDemoActivity</string>
     <string name="disconnected">Disconnected</string>
     <string name="product_information">Product Information</string>

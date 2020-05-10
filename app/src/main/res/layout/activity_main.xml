@@ -42,6 +42,13 @@
             android:layout_height="wrap_content"
             android:text="Clear"
             android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video"
+            android:layout_weight="1"/>
     </LinearLayout>
 
     <LinearLayout
@@ -54,12 +61,13 @@
             android:layout_height="wrap_content"
             android:text="Config"
             android:layout_weight="0.9"/>
+
         <Button
             android:id="@+id/upload"
-            android:layout_width="match_parent"
+            android:layout_width="367dp"
             android:layout_height="wrap_content"
-            android:text="Upload"
-            android:layout_weight="0.9"/>
+            android:layout_weight="0.9"
+            android:text="Upload" />
         <Button
             android:id="@+id/start"
             android:layout_width="match_parent"

@@ -8,9 +8,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Build;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -61,7 +61,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 
     private GoogleMap gMap;
 
-    private Button locate, add, clear;
+    private Button locate, add, clear, video;
     private Button config, upload, start, stop;
 
     private boolean isAdd = false;
@@ -121,12 +121,14 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         locate = (Button) findViewById(R.id.locate);
         add = (Button) findViewById(R.id.add);
         clear = (Button) findViewById(R.id.clear);
+        video = (Button) findViewById(R.id.video);
         config = (Button) findViewById(R.id.config);
         upload = (Button) findViewById(R.id.upload);
         start = (Button) findViewById(R.id.start);
         stop = (Button) findViewById(R.id.stop);
 
         locate.setOnClickListener(this);
+        video.setOnClickListener(this);
         add.setOnClickListener(this);
         clear.setOnClickListener(this);
         config.setOnClickListener(this);
@@ -137,6 +139,8 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     }
 
     @Override
+
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -184,6 +188,13 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     {
         initFlightController();
         loginAccount();
+    }
+    private void openCamera()
+    {
+
+        Intent intent = new Intent(this, MAINFPVDemo.class);
+        startActivity(intent);
+
     }
 
     private void loginAccount(){
@@ -325,6 +336,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         });
     }
 
+
     private void markWaypoint(LatLng point){
         //Create MarkerOptions object
         MarkerOptions markerOptions = new MarkerOptions();
@@ -373,6 +385,10 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
             }
             case R.id.stop:{
                 stopWaypointMission();
+                break;
+            }
+            case R.id.video:{
+                openCamera();
                 break;
             }
             default:
