@@ -29,9 +29,9 @@ import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.sdk.useraccount.UserAccountManager;
 
-public class MAINFPVDemo extends Activity implements SurfaceTextureListener,OnClickListener{
+public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnClickListener{
 
-    private static final String TAG = MAINFPVDemo.class.getName();
+    private static final String TAG = MainFPVDemo.class.getName();
     protected VideoFeeder.VideoDataListener mReceivedVideoDataListener = null;
 
     // Codec for video live view
@@ -82,7 +82,7 @@ public class MAINFPVDemo extends Activity implements SurfaceTextureListener,OnCl
                         final String timeString = String.format("%02d:%02d", minutes, seconds);
                         final boolean isVideoRecording = cameraSystemState.isRecording();
 
-                        MAINFPVDemo.this.runOnUiThread(new Runnable() {
+                        MainFPVDemo.this.runOnUiThread(new Runnable() {
 
                             @Override
                             public void run() {
@@ -256,7 +256,7 @@ public class MAINFPVDemo extends Activity implements SurfaceTextureListener,OnCl
     public void showToast(final String msg) {
         runOnUiThread(new Runnable() {
             public void run() {
-                Toast.makeText(MAINFPVDemo.this, msg, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainFPVDemo.this, msg, Toast.LENGTH_SHORT).show();
             }
         });
     }

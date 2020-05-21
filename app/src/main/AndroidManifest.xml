@@ -93,7 +93,7 @@
             android:screenOrientation="portrait"
             android:launchMode="singleTask"
             />
-        <activity android:name=".MAINFPVDemo"
+        <activity android:name=".MainFPVDemo"
             android:screenOrientation="landscape" >
         </activity>
 
