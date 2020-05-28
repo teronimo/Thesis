@@ -17,6 +17,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import dji.sdk.sdkmanager.DJISDKManager;
+import dji.sdk.sdkmanager.LiveStreamManager;
+
 import dji.common.camera.SettingsDefinitions;
 import dji.common.camera.SystemState;
 import dji.common.error.DJIError;
@@ -28,22 +31,29 @@ import dji.sdk.camera.Camera;
 import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.sdk.useraccount.UserAccountManager;
+import dji.internal.camera.VideoFeederImpl;
 
-public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnClickListener{
+public class MAINFPVDemo extends Activity implements SurfaceTextureListener,OnClickListener{
 
-    private static final String TAG = MainFPVDemo.class.getName();
+    private static final String TAG = MAINFPVDemo.class.getName();
     protected VideoFeeder.VideoDataListener mReceivedVideoDataListener = null;
 
     // Codec for video live view
     protected DJICodecManager mCodecManager = null;
 
+    private Button showInfoBtn;
+    private Button startLiveShowBtn;
+    private Button stopLiveShowBtn;
+    private Button enableVideoEncodingBtn;
+
     protected TextureView mVideoSurface = null;
     private Button mCaptureBtn, mShootPhotoModeBtn, mRecordVideoModeBtn, mback;
-
+    private VideoFeeder primaryVideoFeed;
     private ToggleButton mRecordBtn;
     private TextView recordingTime;
 
     private Handler handler;
+    private String liveShowUrl = "rtmp://150.140.139.251/live/testchannel";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +66,7 @@ public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnCl
         initUI();
 
         // The callback for receiving the raw H264 video data for camera live view
+
         mReceivedVideoDataListener = new VideoFeeder.VideoDataListener() {
 
             @Override
@@ -82,7 +93,7 @@ public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnCl
                         final String timeString = String.format("%02d:%02d", minutes, seconds);
                         final boolean isVideoRecording = cameraSystemState.isRecording();
 
-                        MainFPVDemo.this.runOnUiThread(new Runnable() {
+                        MAINFPVDemo.this.runOnUiThread(new Runnable() {
 
                             @Override
                             public void run() {
@@ -110,24 +121,8 @@ public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnCl
 
     protected void onProductChange() {
         initPreviewer();
-        loginAccount();
     }
 
-    private void loginAccount(){
-
-        UserAccountManager.getInstance().logIntoDJIUserAccount(this,
-                new CommonCallbacks.CompletionCallbackWith<UserAccountState>() {
-                    @Override
-                    public void onSuccess(final UserAccountState userAccountState) {
-                        Log.e(TAG, "Login Success");
-                    }
-                    @Override
-                    public void onFailure(DJIError error) {
-                        showToast("Login Error:"
-                                + error.getDescription());
-                    }
-                });
-    }
 
     @Override
     public void onResume() {
@@ -144,7 +139,7 @@ public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnCl
     @Override
     public void onPause() {
         Log.e(TAG, "onPause");
-        uninitPreviewer();
+        //uninitPreviewer();
         super.onPause();
     }
 
@@ -162,13 +157,15 @@ public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnCl
     @Override
     protected void onDestroy() {
         Log.e(TAG, "onDestroy");
-        uninitPreviewer();
+        //uninitPreviewer();
         super.onDestroy();
     }
     //back to main screen
 
     private void initUI() {
+
         // init mVideoSurface
+
         mVideoSurface = (TextureView)findViewById(R.id.video_previewer_surface);
 
         recordingTime = (TextView) findViewById(R.id.timer);
@@ -177,6 +174,11 @@ public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnCl
         mShootPhotoModeBtn = (Button) findViewById(R.id.btn_shoot_photo_mode);
         mRecordVideoModeBtn = (Button) findViewById(R.id.btn_record_video_mode);
         mback = (Button) findViewById(R.id.btn_back);
+
+        startLiveShowBtn = (Button) findViewById(R.id.btn_start_live_show);
+        stopLiveShowBtn = (Button) findViewById(R.id.btn_stop_live_show);
+        showInfoBtn = (Button) findViewById(R.id.btn_show_info);
+
 
         if (null != mVideoSurface) {
             mVideoSurface.setSurfaceTextureListener(this);
@@ -189,6 +191,10 @@ public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnCl
         mback.setOnClickListener(this);
         recordingTime.setVisibility(View.INVISIBLE);
 
+        startLiveShowBtn.setOnClickListener(this);
+        stopLiveShowBtn.setOnClickListener(this);
+        showInfoBtn.setOnClickListener(this);
+
         mRecordBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -200,6 +206,7 @@ public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnCl
             }
         });
     }
+
 
     private void initPreviewer() {
 
@@ -256,11 +263,11 @@ public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnCl
     public void showToast(final String msg) {
         runOnUiThread(new Runnable() {
             public void run() {
-                Toast.makeText(MainFPVDemo.this, msg, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MAINFPVDemo.this, msg, Toast.LENGTH_SHORT).show();
             }
         });
     }
-    //epistrofi sti pogiumeni othoni me signlemode_na min anigi polla parathira
+    //return to waypoint mission
     private void BackToHome()
     {
 
@@ -268,10 +275,83 @@ public class MainFPVDemo extends Activity implements SurfaceTextureListener,OnCl
         startActivity(intent);
 
     }
+    private void isLiveShowOn() {
+        if (!isLiveStreamManagerOn()) {
+            return;
+        }
+        showToast("Is Live Show On:" + DJISDKManager.getInstance().getLiveStreamManager().isStreaming());
+    }
+    private void showInfo() {
+        if (!isLiveStreamManagerOn()) {
+            return;
+        }
+        StringBuilder sb = new StringBuilder();
+        sb.append("Video BitRate:").append(DJISDKManager.getInstance().getLiveStreamManager().getLiveVideoBitRate()).append(" kpbs\n");
+        sb.append("Audio BitRate:").append(DJISDKManager.getInstance().getLiveStreamManager().getLiveAudioBitRate()).append(" kpbs\n");
+        sb.append("Video FPS:").append(DJISDKManager.getInstance().getLiveStreamManager().getLiveVideoFps()).append("\n");
+        sb.append("Video Cache size:").append(DJISDKManager.getInstance().getLiveStreamManager().getLiveVideoCacheSize()).append(" frame");
+        showToast(sb.toString());
+    }
+
+    private void stopLiveShow() {
+        if (!isLiveStreamManagerOn()) {
+            return;
+        }
+        DJISDKManager.getInstance().getLiveStreamManager().stopStream();
+        showToast("Stop Live Show");
+    }
+    //livetsreaming
+
+
+    void startLiveShow() {
+        showToast("Start Live Show");
+        if (!isLiveStreamManagerOn()) {
+            return;
+        }
+        if (DJISDKManager.getInstance().getLiveStreamManager().isStreaming()) {
+            showToast("already started!");
+            return;
+        }
+        new Thread() {
+            @Override
+            public void run() {
+                DJISDKManager.getInstance().getLiveStreamManager().setLiveUrl(liveShowUrl);
+                int result = DJISDKManager.getInstance().getLiveStreamManager().startStream();
+                DJISDKManager.getInstance().getLiveStreamManager().setStartTime();
+                showToast("startLive:" + result +
+                        "\n isVideoStreamSpeedConfigurable:" + DJISDKManager.getInstance().getLiveStreamManager().isVideoStreamSpeedConfigurable() +
+                        "\n isLiveAudioEnabled:" + DJISDKManager.getInstance().getLiveStreamManager().isLiveAudioEnabled());
+            }
+        }.start();
+    }
+    private boolean isLiveStreamManagerOn() {
+        if (DJISDKManager.getInstance().getLiveStreamManager() == null) {
+            showToast("No live stream manager!");
+            return false;
+        }
+        return true;
+    }
+
     @Override
     public void onClick(View v) {
 
         switch (v.getId()) {
+
+            case R.id.btn_show_info:
+                {
+                showInfo();
+                break;
+            }
+            case R.id.btn_stop_live_show:
+                {
+                stopLiveShow();
+                break;
+            }
+            case R.id.btn_start_live_show:
+            {
+                startLiveShow();
+                break;
+            }
             case R.id.btn_capture:{
                 captureAction();
                 break;

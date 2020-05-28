@@ -187,8 +187,9 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     private void onProductConnectionChange()
     {
         initFlightController();
-        loginAccount();
     }
+
+    //move to fpv view
     private void openCamera()
     {
 
@@ -197,21 +198,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 
     }
 
-    private void loginAccount(){
 
-        UserAccountManager.getInstance().logIntoDJIUserAccount(this,
-                new CommonCallbacks.CompletionCallbackWith<UserAccountState>() {
-                    @Override
-                    public void onSuccess(final UserAccountState userAccountState) {
-                        Log.e(TAG, "Login Success");
-                    }
-                    @Override
-                    public void onFailure(DJIError error) {
-                        setResultToToast("Login Error:"
-                                + error.getDescription());
-                    }
-                });
-    }
 
     private void initFlightController() {
 

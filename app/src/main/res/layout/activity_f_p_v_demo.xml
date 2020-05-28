@@ -57,6 +57,33 @@
             android:layout_gravity="center_vertical" />
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_start_live_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="start live stream" />
+        <Button
+            android:id="@+id/btn_stop_live_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="stop live stream" />
+
+        <Button
+            android:id="@+id/btn_show_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="info about live stream" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/timer"

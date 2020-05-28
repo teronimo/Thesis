@@ -28,6 +28,8 @@
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -93,7 +95,7 @@
             android:screenOrientation="portrait"
             android:launchMode="singleTask"
             />
-        <activity android:name=".MainFPVDemo"
+        <activity android:name=".MAINFPVDemo"
             android:screenOrientation="landscape" >
         </activity>
 
