@@ -31,7 +31,7 @@ else:
 # OpenCV object tracker objects
 tracker = OPENCV_OBJECT_TRACKERS["csrt"]()
 
-vs = cv2.VideoCapture('basket.mp4')
+vs = cv2.VideoCapture('test.mp4')
 
 # loop over the frames of the video, and store corresponding information from each frame
 firstFrame = None
@@ -179,5 +179,5 @@ while True:
     lastframe = frame
 
 # finally, stop the stream and close any open windows
-vs.stop() if 'basket.mp4' is None else vs.release()
+vs.stop() if 'test.mp4' is None else vs.release()
 cv2.destroyAllWindows()
